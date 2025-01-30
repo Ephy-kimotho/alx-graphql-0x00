@@ -1,8 +1,8 @@
 query EpisodeQuery($id:ID!){
   episode(id:$id){
-    id,
-    name,
-    air_date,
+    id
+    name
+    air_date
     episode
   }
 }
